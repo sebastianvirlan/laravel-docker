@@ -1,0 +1,23 @@
+version: "3.0"
+
+services:
+    laravel-app:
+        build: app/
+        links:
+            - mysql
+            - redis
+        ports:
+            - 80:80
+        volumes:
+            - /app
+    mysql:
+        image: mysql
+        environment:
+            - "MYSQL_ROOT_PASSWORD=rootpass"
+            - "MYSQL_DATABASE=laravelApp"
+            - "MYSQL_USER=laravelDbUser"
+            - "MYSQL_PASSWORD=laravelDbPass!"
+        ports: 
+            - "3307:3306"
+    redis:
+        image: redis

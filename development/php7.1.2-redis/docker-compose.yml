@@ -1,0 +1,13 @@
+version: "3.0"
+
+services:
+    laravel-app:
+        build: app/
+        links:
+            - redis
+        ports:
+            - 80:80
+        volumes:
+            - /app
+    redis:
+        image: redis

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+declare -A MYSQL_CONFIG
+
+MYSQL_CONFIG[DB_HOST]="mysql"
+MYSQL_CONFIG[DB_DATABASE]="laravelApp"
+MYSQL_CONFIG[DB_USERNAME]="laravelDbUser"
+MYSQL_CONFIG[DB_PASSWORD]="laravelDbPass!"
