@@ -1,21 +1,13 @@
 # Suported Tags:
 
 - [`development-php7.1.2-mysql`](https://github.com/sebastianvirlan/laravel-docker/tree/development-php7.1.2-mysql)
-- [`development-php7.1.2-mongodb`](https://github.com/sebastianvirlan/laravel-docker/tree/development-php7.1.2-mongodb) -- in progress
-- [`development-php7.1.2-redis`](https://github.com/sebastianvirlan/laravel-docker/tree/development-php7.1.2-redis) -- in progress
-- [`development-php7.1.2-mysql-mongodb`](https://github.com/sebastianvirlan/laravel-docker/tree/development-php7.1.2-mysql-mongodb) -- in progress
-- [`development-php7.1.2-mysql-redis`](https://github.com/sebastianvirlan/laravel-docker/tree/development-php7.1.2-mysql-redis) -- in progress
-- [`development-php7.1.2-mongodb-redis`](https://github.com/sebastianvirlan/laravel-docker/tree/development-php7.1.2-mongodb-redis) -- in progress
+- [`development-php7.1.2-mongodb`](https://github.com/sebastianvirlan/laravel-docker/tree/development-php7.1.2-mongodb)
+- [`development-php7.1.2-redis`](https://github.com/sebastianvirlan/laravel-docker/tree/development-php7.1.2-redis)
+- [`development-php7.1.2-mysql-mongodb`](https://github.com/sebastianvirlan/laravel-docker/tree/development-php7.1.2-mysql-mongodb)
+- [`development-php7.1.2-mysql-redis`](https://github.com/sebastianvirlan/laravel-docker/tree/development-php7.1.2-mysql-redis)
+- [`development-php7.1.2-mongodb-redis`](https://github.com/sebastianvirlan/laravel-docker/tree/development-php7.1.2-mongodb-redis)
 - [`development-php7.1.2-mysql-mongodb-redis`](https://github.com/sebastianvirlan/laravel-docker/)
 
-
-- [`production-php7.1.2-mysql`]() -- in progress
-- [`production-php7.1.2-mongodb`]() -- in progress
-- [`production-php7.1.2-redis`]() -- in progress
-- [`production-php7.1.2-mysql-mongodb`]() -- in progress
-- [`production-php7.1.2-mysql-redis`]() -- in progress
-- [`production-php7.1.2-mongodb-redis`]() -- in progress
-- [`production-php7.1.2-mysql-mongodb-redis`]() -- in progress
 
 Laravel application server based on PHP 7.1.2.
 
