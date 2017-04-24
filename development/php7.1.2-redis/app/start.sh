@@ -12,9 +12,11 @@ if [ ! -f artisan ]; then
     #add compooser dependecies
     composer create-project laravel/laravel ./ --prefer-dist
 
-    setUpMongo
-
+    setUpRedis
+    
 fi
+
+composer update
 
 #start project
 php artisan serve --port=80 --host=0.0.0.0

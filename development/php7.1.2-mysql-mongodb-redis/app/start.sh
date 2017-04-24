@@ -14,8 +14,11 @@ if [ ! -f artisan ]; then
 
     setUpMySQL
     setUpMongo
-
+    setUpRedis
+    
 fi
+
+composer update
 
 #start project
 php artisan serve --port=80 --host=0.0.0.0

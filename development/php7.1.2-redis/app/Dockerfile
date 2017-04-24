@@ -8,9 +8,9 @@ RUN apt-get install zlib1g-dev && docker-php-ext-install zip
 
 ADD helpers /home/helpers/
 
-ADD install.sh /home/
-RUN chmod +x /home/install.sh
+ADD start.sh /home/
+RUN chmod +x /home/start.sh
 
 EXPOSE 80
 
-CMD ["/home/install.sh"]
+CMD ["/home/start.sh"]
