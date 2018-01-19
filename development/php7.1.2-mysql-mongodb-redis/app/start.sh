@@ -18,7 +18,7 @@ if [ ! -f artisan ]; then
     
 fi
 
-composer update
+composer install
 
 #start project
 php artisan serve --port=80 --host=0.0.0.0
