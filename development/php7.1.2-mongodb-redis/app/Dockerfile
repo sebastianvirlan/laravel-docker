@@ -6,7 +6,7 @@ RUN apt-get update
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 RUN apt-get install zlib1g-dev && docker-php-ext-install zip
 
-RUN apt-get install libcurl4-openssl-dev pkg-config libssl-dev
+RUN apt-get -y install libcurl4-openssl-dev pkg-config libssl-dev
 RUN pecl install mongodb && \
     cd /usr/local/etc/php/conf.d/ && \
     touch mongodb.ini &&  echo "extension=mongodb.so" >> mongodb.ini
